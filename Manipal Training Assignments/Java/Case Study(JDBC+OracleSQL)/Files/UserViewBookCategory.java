@@ -15,7 +15,7 @@ public class UserViewBookCategory {
 			System.out.println("Here below are all the categories.");
 			System.out.println();
 			Thread.sleep(600);
-			String query1 = "select CATEGORY from BOOK_INFO order by CATEGORY";
+			String query1 = "select distinct(CATEGORY) from BOOK_INFO order by CATEGORY";
 			ResultSet rs1=smst1.executeQuery(query1);
 			int srn=1;
 			while(rs1.next())  
