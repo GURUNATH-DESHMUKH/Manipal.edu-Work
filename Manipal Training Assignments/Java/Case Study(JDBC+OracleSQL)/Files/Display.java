@@ -57,19 +57,7 @@ public class Display {
 				//user creation.
 				usur.UserSignUpReg(usud, usu);
 				Thread.sleep(400);
-				System.out.println("Terminating program. ");
-				Thread.sleep(400);
-				System.out.print(".");
-				Thread.sleep(400);
-				System.out.print(" .");
-				Thread.sleep(400);
-				System.out.print(" .");
-				Thread.sleep(600);
-				System.out.println();
-				System.out.println("Program Terminated.");
-				Thread.sleep(400);
 				System.out.println("Run the program again to login");
-				usie.UserSignInExi(usi);
 			}
 			else 
 				System.out.println("Invalid input");
